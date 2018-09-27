@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>brain.js testing</title>
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet"> 
+    <style type="text/css">
+      #output {
+        padding: 64px;
+        font-family: 'Share Tech Mono', monospace;
+        white-space: pre;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="output"/>
+
+    <script src="./ext/brain.min.js" ></script>
+    <script src="./ext/papaparse.min.js" ></script>
+    <script type="text/javascript">
+    	Papa.SCRIPT_PATH = '/dev/ml/ext/papaparse.min.js';
+    </script>
+    <script src="test.js" ></script>
+  </body>
+</html>
